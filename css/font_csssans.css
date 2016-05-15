@@ -1,0 +1,1378 @@
+/*! 
+ * css-sans.css v1.0.0
+ * (c) 2015 Yusuke Sugomori
+ * MIT License | http://yusugomori.com/license/mit
+ */
+
+.A {  
+  position: relative;
+  width: 65px;
+  height: 87px;
+  border-bottom: solid 14px #000000;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+
+.A .kriips {
+  background-color: black;
+  width: 50px;
+  height: 14px;
+  position: absolute;
+  top: 100px;
+  left: -40px;
+}
+.A:before {
+  -webkit-transform: skew(-19deg, 0);
+  -moz-transform: skew(-19deg, 0);
+  -ms-transform: skew(-19deg, 0);
+  -o-transform: skew(-19deg, 0);
+  transform: skew(-19deg, 0);
+  position: absolute;
+  content: '';
+  top: 12.5px;
+  left: 13px;
+  width: 6px;
+  height: 100px;
+  background-color: #000000;
+}
+.A:after {
+  -webkit-transform: skew(19deg, 0);
+  -moz-transform: skew(19deg, 0);
+  -ms-transform: skew(19deg, 0);
+  -o-transform: skew(19deg, 0);
+  transform: skew(19deg, 0);
+  position: absolute;
+  content: '';
+  top: 12.5px;
+  left: 52px;
+  width: 16px;
+  height: 125px;
+  background-color: #000000;
+}
+.B {
+  position: relative;
+  top: 12.5px;
+  width: 60px;
+  height: 122px;
+  border-left: solid 16px #000000;
+  margin-right: 30px;
+}
+
+.B .valgekast {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: 70px;
+  left: -75px;
+  background-color: #ffffff;
+  width:130px;
+  height: 20px;
+  z-index: 3;
+}
+
+.B .valgekast2 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: 48px;
+  left: 60px;
+  background-color: #ffffff;
+  width: 30px;
+  height: 70px;
+  z-index: 6;
+}
+
+.B .valgekast3 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: 33px;
+  left: 20px;
+  background-color: #ffffff;
+  width: 30px;
+  height: 70px;
+  z-index: 6;
+}
+
+.B .kriips2 {
+  background-color: black;
+  width: 6px;
+  height: 100px;
+  position: absolute;
+  top: 10px;
+  left: -6px;
+  z-index: 5;
+}
+
+.B .kriips3 {
+  background-color: black;
+  width: 50px;
+  height: 14px;
+  position: absolute;
+  top: 98px;
+  left: -35px;
+  z-index: 6;
+}
+
+.B:before {
+  position: absolute;
+  content: '';
+  width: 52px;
+  height: 39px;
+  border-width: 15px 15px 15px 0;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 0 240% 180% 0 / 0 180% 180% 0;
+  -moz-border-radius: 0 240% 180% 0 / 0 180% 180% 0;
+  -ms-border-radius: 0 240% 180% 0 / 0 180% 180% 0;
+  -o-border-radius: 0 240% 180% 0 / 0 180% 180% 0;
+  border-radius: 0 240% 180% 0 / 0 180% 180% 0;
+  z-index: 7;
+}
+.B:after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  width: 58px;
+  height: 43px;
+  border-width: 10px 15px 15px 0;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 0 180% 220% 0 / 0 180% 180% 0;
+  -moz-border-radius: 0 180% 220% 0 / 0 180% 180% 0;
+  -ms-border-radius: 0 180% 220% 0 / 0 180% 180% 0;
+  -o-border-radius: 0 180% 220% 0 / 0 180% 180% 0;
+  border-radius: 0 180% 220% 0 / 0 180% 180% 0;
+}
+
+
+
+.C {
+  position: relative;
+  top: 12.5px;
+  width: 84px;
+  height: 95px;
+  border-width: 15px 12px 15px 16px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+.C .valgekast {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: 10px;
+  left: -30px;
+  background-color: #ffffff;
+  width: 30px;
+  height: 70px;
+}
+
+.C .valgekast2 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: -40px;
+  left: 60px;
+  background-color: #ffffff;
+  width: 30px;
+  height: 70px;
+}
+
+.C:before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  content: '';
+  top: 2px;
+  left: 49px;
+  background-color: #ffffff;
+  width: 90px;
+  height: 90px;
+}
+
+.C .kriips {
+  background-color: black;
+  width: 6px;
+  height: 60px;
+  position: absolute;
+  top: 0px;
+  left: 60px;
+}
+
+.C .kriips2 {
+  background-color: black;
+  width: 40px;
+  height: 14px;
+  position: absolute;
+  top: 0%;
+  left: 33px;
+}
+
+.D {
+  position: relative;
+  top: 12.5px;
+  border-left: solid 0 #000000;
+  height: 125px;
+  margin-left: 25px;
+}
+.D:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 95px;
+  border-width: 15px 15px 15px 0;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 0 300% 300% 0 / 0 180% 180% 0;
+  -moz-border-radius: 0 300% 300% 0 / 0 180% 180% 0;
+  -ms-border-radius: 0 300% 300% 0 / 0 180% 180% 0;
+  -o-border-radius: 0 300% 300% 0 / 0 180% 180% 0;
+  border-radius: 0 300% 300% 0 / 0 180% 180% 0;
+}
+
+.D .kriips {
+  background-color: black;
+  width: 6px;
+  height: 40px;
+  position: absolute;
+  top: 80px;
+  left: 6px;
+}
+
+.D .kriips2 {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 70px;
+  left: -31px;
+}
+.D .valgekast {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: -10px;
+  left: -30px;
+  background-color: #ffffff;
+  width: 70px;
+  height: 20px;
+}
+
+.E {
+  position: relative;
+  top: 14px;
+  width: 63px;
+  height: 110px;
+  border-width: 0 0 15px 0;
+  border-color: #000000;
+  border-style: solid;
+  margin-right: 40px;
+  margin-left: 120px;
+}
+.E .kriips {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 23px;
+  left: -38px;
+}
+
+.E .kriips2 {
+  background-color: black;
+  width: 6px;
+  height: 70px;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+}
+
+.E:before {
+  position: absolute;
+  content: '';
+  top: 38px;
+  left: 0px;
+  width: 53px;
+  height: 15px;
+  background-color: #000000;
+}
+
+.F {
+  position: relative;
+  top: 12.5px;
+  width: 63px;
+  height: 122px;
+  border-width: 0 0 0 6px;
+  border-color: #000000;
+  border-style: solid;
+  margin-left: 30px;
+}
+
+.F .kriips {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 0px;
+  left: -38px;
+}
+
+.F:before {
+  position: absolute;
+  content: '';
+  top: 50px;
+  left: 0px;
+  width: 53px;
+  height: 15px;
+  background-color: #000000;
+}
+.G {
+  position: relative;
+  top: 12.5px;
+  width: 84px;
+  height: 93px;
+  border-width: 15px 12px 15px 16px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin-right: 40px;
+  margin-left: 22px;
+}
+.G:before {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: -20px;
+  left: 40px;
+  background-color: #ffffff;
+  width: 90px;
+  height: 90px;
+}
+
+.G .kriips {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 30px;
+  left: 75px;
+}
+.G:after {
+  position: absolute;
+  content: '';
+  top: 30px;
+  right: -5px;
+  width: 28px;
+  height: 40px;
+  border-width: 0 6px 0 0;
+  border-color: #000000;
+  border-style: solid;
+}
+
+.G .valgekast {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: 10px;
+  left: -30px;
+  background-color: #ffffff;
+  width: 30px;
+  height: 70px;
+}
+
+.H {
+  position: relative;
+  top: 12.5px;
+  width: 120px;
+  height: 123px;
+  border-width: 0 0 0 16px;
+  border-color: #000000;
+  border-style: solid;
+  margin-left: 60px; 
+}
+.H:before {
+  position: absolute;
+  content: '';
+  top: 53px;
+  left: 0;
+  height: 14px;
+  width: 60px;
+  background-color: #000000;
+}
+
+.H .kriips {
+  background-color: black;
+  width: 60px;
+  height: 14px;
+  position: absolute;
+  top: 10px;
+  left: 40px;
+}
+
+.H .kriips2 {
+  background-color: black;
+  width: 6px;
+  height: 115px;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+
+.I {
+  z-index: 1;  
+  position: relative;
+  top: 12.5px;
+  width: 6px;
+  height: 110px;
+  background-color: #000000;
+  margin-left: 42px;
+  margin-right: 23px;
+}
+.I .kriips {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 110px;
+  left: -23px;
+}
+.I .kriips2 {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 0px;
+  left: -10px;
+}
+
+.J {
+  position: relative;
+  top: 12.5px;
+  width: 75px;
+  height: 70px;
+  border-right: solid 16px #000000;
+  margin-right: 70px;
+  margin-bottom: 123px;
+}
+.J:before {
+  position: absolute;
+  content: '';
+  bottom: -60px;
+  right: -16px;
+  width: 50px;
+  height: 60px;
+  border-width: 0 16px 15px 14px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 0 0 75% 75%;
+  -moz-border-radius: 0 0 75% 75%;
+  -ms-border-radius: 0 0 75% 75%;
+  -o-border-radius: 0 0 75% 75%;
+  border-radius: 0 0 75% 75%;
+}
+.J:after {
+  -webkit-transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -ms-transform: rotate(-40deg);
+  -o-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+  position: absolute;
+  content: '';
+  top: 40px;
+  left: -20px;
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+}
+.J .kriips {
+  background-color: black;
+  width: 6px;
+  height: 70px;
+  position: absolute;
+  top: 10px;
+  left: 80px;
+  z-index: 5;
+}
+
+.J .kriips2 {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 10px;
+  left: 70px;
+}
+
+.J .valgekast {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: 0px;
+  left: 20px;
+  background-color: #ffffff;
+  width: 130px;
+  height: 30px;
+}
+
+.K {
+  position: relative;
+  top: 12.5px;
+  width: 80px;
+  height: 123px;
+  border-left: solid 6px #000000;
+  margin-left: 0px;
+}
+.K:before {
+  -webkit-transform: skew(-43deg, 0);
+  -moz-transform: skew(-43deg, 0);
+  -ms-transform: skew(-43deg, 0);
+  -o-transform: skew(-43deg, 0);
+  transform: skew(-43deg, 0);
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 16px;
+  width: 19px;
+  height: 84px;
+  background-color: #000000;
+}
+.K:after {
+  -webkit-transform: skew(30deg, 0);
+  -moz-transform: skew(30deg, 0);
+  -ms-transform: skew(30deg, 0);
+  -o-transform: skew(30deg, 0);
+  transform: skew(30deg, 0);
+  position: absolute;
+  content: '';
+  bottom: 0;
+  right: 25px;
+  width: 18px;
+  height: 80px;
+  background-color: #000000;
+}
+.K .kriips {
+  background-color: black;
+  width: 6px;
+  height: 50px;
+  position: absolute;
+  top: 59px;
+  left: -6px;
+  z-index: 2;
+}
+
+.K .kriips2 {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 50px;
+  left: -51px;
+  z-index: 3;
+}
+
+.K .valgekast {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: 30px;
+  left: -70px;
+  background-color: #ffffff;
+  width: 100px;
+  height: 40px;
+  z-index: 1;
+}
+.L {
+  position: relative;
+  top: 12.5px;
+  width: 63px;
+  height: 108px;
+  border-width: 0 0 15px 0;
+  border-color: #000000;
+  border-style: solid;
+  margin-left: 30px;
+}
+
+.L .kriips {
+  background-color: black;
+  width: 6px;
+  height: 90px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+.L .kriips2 {
+  background-color: black;
+  width: 50px;
+  height: 14px;
+  position: absolute;
+  top: 20px;
+  left: -27px;
+}
+
+.M {
+  position: relative;
+  top: 12.5px;
+  width: 80px;
+  height: 123px;
+  border-width: 0 0px 0 15px;
+  border-color: #000000;
+  border-style: solid;
+  margin-left: 30px;
+}
+.M:before {
+  -webkit-transform: skew(20deg, 0);
+  -moz-transform: skew(20deg, 0);
+  -ms-transform: skew(20deg, 0);
+  -o-transform: skew(20deg, 0);
+  transform: skew(20deg, 0);
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 14px;
+  width: 12px;
+  height: 110px;
+  background-color: #000000;
+}
+.M:after {
+  -webkit-transform: skew(-20deg, 0);
+  -moz-transform: skew(-20deg, 0);
+  -ms-transform: skew(-20deg, 0);
+  -o-transform: skew(-20deg, 0);
+  transform: skew(-20deg, 0);
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 14px;
+  width: 6px;
+  height: 110px;
+  background-color: #000000;
+}
+.M .kriips {
+  background-color: black;
+  width: 50px;
+  height: 14px;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+}
+
+.N {
+  position: relative;
+  top: 12.5px;
+  width: 63px;
+  height: 123px;
+  border-width: 0 0 0 15px;
+  border-color: #000000;
+  border-style: solid;
+  margin-left: 30px;
+}
+.N .kriips {
+  background-color: black;
+  width: 6px;
+  height: 84px;
+  position: absolute;
+  top: 40px;
+  left: 69px;
+}
+
+.N .kriips2 {
+  background-color: black;
+  width: 50px;
+  height: 14px;
+  position: absolute;
+  top: 40px;
+  left: 63px;
+}
+.N:before {
+  -webkit-transform: skew(30deg, 0);
+  -moz-transform: skew(30deg, 0);
+  -ms-transform: skew(30deg, 0);
+  -o-transform: skew(30deg, 0);
+  transform: skew(30deg, 0);
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 24px;
+  width: 15px;
+  height: 125px;
+  background-color: #000000;
+}
+
+
+.O {
+  position: relative;
+  top: 12.5px;
+  width: 70px;
+  height: 95px;
+  border-width: 14px 16px 14px 16px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 55% / 52%;
+  -moz-border-radius: 55% / 52%;
+  -ms-border-radius: 55% / 52%;
+  -o-border-radius: 55% / 52%;
+  border-radius: 55% / 52%;
+  margin-right: 50px;
+  margin-left: 80px;
+}
+.O .valgekast {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: -30px;
+  background-color: #ffffff;
+  width: 35px;
+  height: 90px;
+}
+
+.O .valgekast2 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: 40px;
+  left: 20px;
+  background-color: #ffffff;
+  width: 90px;
+  height: 60px;
+}
+
+
+.O .kriips {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 55px;
+  left: -48px;
+}
+
+.O .kriips2 {
+  background-color: black;
+  width: 6px;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 71px;
+}
+
+.P {
+  position: relative;
+  top: 12.5px;
+  width: 125px;
+  height: 123px;
+  border-left: solid 0px #000000;
+  margin-left: 0px;
+}
+
+.P .kriips {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 10px;
+  left: -38px;
+}
+
+.P .kriips2 {
+  background-color: black;
+  width: 6px;
+  height: 63px;
+  position: absolute;
+  top: 65px;
+  left: 0px;
+}
+
+.P:before {
+  position: absolute;
+  content: '';
+  width: 56px;
+  height: 50px;
+  border-width: 13px 15px 13px 0;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 0 220% 220% 0 / 0 180% 180% 0;
+  -moz-border-radius: 0 220% 220% 0 / 0 180% 180% 0;
+  -ms-border-radius: 0 220% 220% 0 / 0 180% 180% 0;
+  -o-border-radius: 0 220% 220% 0 / 0 180% 180% 0;
+  border-radius: 0 220% 220% 0 / 0 180% 180% 0;
+}
+
+.Q {
+  position: relative;
+  top: 12.5px;
+  width: 70px;
+  height: 97px;
+  border-width: 14px 16px 14px 16px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 55% / 52%;
+  -moz-border-radius: 55% / 52%;
+  -ms-border-radius: 55% / 52%;
+  -o-border-radius: 55% / 52%;
+  border-radius: 55% / 52%;
+  margin-left: 5px;
+}
+.Q .valgekast {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: -3px;
+  left: -30px;
+  background-color: #ffffff;
+  width: 27px;
+  height: 90px;
+}
+
+.Q .valgekast2 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: 40px;
+  left: 20px;
+  background-color: #ffffff;
+  width: 90px;
+  height: 60px;
+}
+
+
+.Q .kriips {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 55px;
+  left: -48px;
+}
+
+.Q .kriips2 {
+  background-color: black;
+  width: 6px;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 71px;
+}
+
+.Q .kriips3 {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 140px;
+  left: 22px;
+}
+
+.Q .kriips4 {
+  background-color: black;
+  width: 6px;
+  height: 50px;
+  position: absolute;
+  top: 97px;
+  left: 30px;
+}
+
+.R {
+  position: relative;
+  top: 12.5px;
+  width: 125px;
+  height: 125px;
+  border-left: solid 0px #000000;
+  margin-left: 50px;
+}
+
+.R .kriips {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 10px;
+  left: -38px;
+}
+
+.R .kriips2 {
+  background-color: black;
+  width: 14px;
+  height: 63px;
+  position: absolute;
+  top: 65px;
+  left: 0px;
+}
+
+.R .kriips3 {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 100px;
+  left: 35px;
+}
+
+.R:before {
+  position: absolute;
+  content: '';
+  width: 56px;
+  height: 50px;
+  border-width: 13px 15px 13px 0;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 0 220% 220% 0 / 0 180% 180% 0;
+  -moz-border-radius: 0 220% 220% 0 / 0 180% 180% 0;
+  -ms-border-radius: 0 220% 220% 0 / 0 180% 180% 0;
+  -o-border-radius: 0 220% 220% 0 / 0 180% 180% 0;
+  border-radius: 0 220% 220% 0 / 0 180% 180% 0;
+}
+
+.R:after {
+  -webkit-transform: skew(32deg, 0);
+  -moz-transform: skew(32deg, 0);
+  -ms-transform: skew(32deg, 0);
+  -o-transform: skew(32deg, 0);
+  transform: skew(32deg, 0);
+  position: absolute;
+  content: '';
+  top: 70px;
+  left: 38px;
+  width: 6px;
+  height: 40px;
+  background-color: #000000;
+}
+.S {
+  position: relative;
+  width: 105px;
+  height: 150px;
+  top: 10px;
+  margin-left: 0px;
+}
+.S:before {
+  -webkit-transform: rotate(18deg);
+  -moz-transform: rotate(18deg);
+  -ms-transform: rotate(18deg);
+  -o-transform: rotate(18deg);
+  transform: rotate(18deg);
+  position: absolute;
+  content: '';
+  width: 44px;
+  height: 40px;
+  border-width: 14px 0 15px 15.5px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 220% 0 0 150% / 150% 0 0 100%;
+  -moz-border-radius: 220% 0 0 150% / 150% 0 0 100%;
+  -ms-border-radius: 220% 0 0 150% / 150% 0 0 100%;
+  -o-border-radius: 220% 0 0 150% / 150% 0 0 100%;
+  border-radius: 220% 0 0 150% / 150% 0 0 100%;
+}
+
+.S .kriips {
+  background-color: black;
+  width: 6px;
+  height: 60px;
+  position: absolute;
+  top: 63px;
+  left: 45px;
+}
+
+.S .kriips2 {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 115px;
+  left: 7px;
+}
+
+.T {
+  position: relative;
+  top: 16px;
+  width: 100px;
+  height: 150px;
+  border-top: solid 15px #000000;
+  margin-left: 0px;
+}
+.T:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 27px;
+  width: 6px;
+  height: 110px;
+  background-color: #000000;
+}
+
+.U {
+  position: relative;
+  top: 12.5px;
+  width: 60px;
+  height: 80px;
+  border-width: 0 16px 0 0;
+  border-color: #000000;
+  border-style: solid;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+.U:before {
+  position: absolute;
+  content: '';
+  top: 65px;
+  left: -16px;
+  width: 60px;
+  height: 45px;
+  border-width: 0 16px 15px 16px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 0 0 200% 200% / 0 0 300% 300%;
+  -moz-border-radius: 0 0 200% 200% / 0 0 300% 300%;
+  -ms-border-radius: 0 0 200% 200% / 0 0 300% 300%;
+  -o-border-radius: 0 0 200% 200% / 0 0 300% 300%;
+  border-radius: 0 0 200% 200% / 0 0 300% 300%;
+}
+
+.U .valgekast {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: 100px;
+  left: 15px;
+  background-color: #ffffff;
+  width: 30px;
+  height: 20px;
+}
+
+.U .valgekast2 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: 70px;
+  left: -21px;
+  background-color: #ffffff;
+  width: 30px;
+  height: 20px;
+  z-index: 1;
+}
+
+.U .kriips {
+  background-color: black;
+  width: 6px;
+  height: 60px;
+  position: absolute;
+  top: 40px;
+  left: -7px;
+  z-index: 2;
+}
+
+.U .kriips2 {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 30px;
+  left: -40px;
+}
+
+.V {
+  position: relative;
+  top: 12.5px;
+  width: 59px;
+  height: 60px;
+  margin-left: 50px;
+}
+.V:before {
+  -webkit-transform: skew(18deg, 0);
+  -moz-transform: skew(18deg, 0);
+  -ms-transform: skew(18deg, 0);
+  -o-transform: skew(18deg, 0);
+  transform: skew(18deg, 0);
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 125px;
+  border-left: solid 16px #000000;
+}
+.V:after {
+  -webkit-transform: skew(-18deg, 0);
+  -moz-transform: skew(-18deg, 0);
+  -ms-transform: skew(-18deg, 0);
+  -o-transform: skew(-18deg, 0);
+  transform: skew(-18deg, 0);
+  position: absolute;
+  content: '';
+  top: 55px;
+  right: 10px;
+  height: 70px;
+  border-left: solid 6px #000000;
+}
+
+.V .kriips {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 55px;
+  left: 43px;
+}
+.W {
+  position: relative;
+  top: 12.5px;
+  width: 100px;
+  margin-left: 50px;
+  height: 60px;
+}
+.W:before {
+  -webkit-transform: skew(11deg, 0);
+  -moz-transform: skew(11deg, 0);
+  -ms-transform: skew(11deg, 0);
+  -o-transform: skew(11deg, 0);
+  transform: skew(11deg, 0);
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 5px;
+  width: 42px;
+  height: 125px;
+  border-width: 0 15px 0 13px;
+  border-color: #000000;
+  border-style: solid;
+}
+.W:after {
+  -webkit-transform: skew(-15deg, 0);
+  -moz-transform: skew(-15deg, 0);
+  -ms-transform: skew(-15deg, 0);
+  -o-transform: skew(-15deg, 0);
+  transform: skew(-15deg, 0);
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 45px;
+  width: 42px;
+  height: 125px;
+  border-width: 0 6px 0 6px;
+  border-color: #000000;
+  border-style: solid;
+  z-index: 1;
+}
+
+.W .kriips {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 40px;
+  left: 85px;
+}
+
+.W .valgekast {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: 0px;
+  left: 90px;
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+}
+
+.X {
+  position: relative;
+  top: 12.5px;
+  width: 16px;
+  height: 60px;
+  margin-left: 90px;
+}
+.X:before {
+  -webkit-transform: skew(28deg, 0);
+  -moz-transform: skew(28deg, 0);
+  -ms-transform: skew(28deg, 0);
+  -o-transform: skew(28deg, 0);
+  transform: skew(28deg, 0);
+  position: absolute;
+  content: '';
+  top: 62px;
+  left: 14px;
+  width: 7px;
+  height: 63px;
+  background-color: #000000;
+}
+
+.X .kriips {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: 60px;
+  left: -46px;
+}
+
+.X:after {
+  -webkit-transform: skew(-32deg, 0);
+  -moz-transform: skew(-32deg, 0);
+  -ms-transform: skew(-32deg, 0);
+  -o-transform: skew(-32deg, 0);
+  transform: skew(-32deg, 0);
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 125px;
+  background-color: #000000;
+}
+.Y {
+  position: relative;
+  top: 92.5px;
+  width: 16px;
+  height: 50px;
+  background-color: #000000;
+  margin-left: 80px;
+  margin-bottom: 80px;
+}
+.Y:before {
+  -webkit-transform: skew(28deg, 0);
+  -moz-transform: skew(28deg, 0);
+  -ms-transform: skew(28deg, 0);
+  -o-transform: skew(28deg, 0);
+  transform: skew(28deg, 0);
+  position: absolute;
+  content: '';
+  top: -80px;
+  left: -8px;
+  width: 6px;
+  height: 80px;
+  background-color: #000000;
+}
+.Y:after {
+  -webkit-transform: skew(-28deg, 0);
+  -moz-transform: skew(-28deg, 0);
+  -ms-transform: skew(-28deg, 0);
+  -o-transform: skew(-28deg, 0);
+  transform: skew(-28deg, 0);
+  position: absolute;
+  content: '';
+  top: -80px;
+  right: -21px;
+  width: 0px;
+  height: 80px;
+  background-color: #000000;
+}
+
+.Y .kriips {
+  background-color: black;
+  width: 50px;
+  height: 15px;
+  position: absolute;
+  top: -15px;
+  left: -1px;
+}
+
+.Z {
+  position: relative;
+  top: 12px;
+  width: 90px;
+  height: 95px;
+  border-width: 15px 0 15px 0;
+  border-color: #000000;
+  border-style: solid;
+  margin-left: 5px;
+  margin-top: 120px;
+}
+.Z:before {
+  -webkit-transform: skew(-20deg, 0);
+  -moz-transform: skew(-20deg, 0);
+  -ms-transform: skew(-20deg, 0);
+  -o-transform: skew(-20deg, 0);
+  transform: skew(-20deg, 0);
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 46px;
+  width: 6px;
+  height: 95px;
+  background-color: #000000;
+}
+

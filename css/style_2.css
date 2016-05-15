@@ -1,0 +1,240 @@
+html, body {
+padding: 0;
+margin: 0;
+}
+
+body {
+padding: 2em;
+padding-bottom: 2em;
+}
+
+h1 {
+  color: black;
+  font-family: "futura", helvetica, sans-serif;
+}
+
+a{
+  color: black;
+}
+
+a:hover {
+  color: #fcee2b;
+}
+
+a:visited {
+  color: blue;
+}
+
+.yellow-box {
+  border: 10px solid #fcee2b;
+  width: 100%;
+  height: 80vh;
+}
+
+.yellow-box-2 {
+  float:left;
+  border: 10px solid;
+  width: 25%;
+  height: 50vh;
+  margin: 3em;
+}
+
+.kollane{
+  color: #fcee2b;
+}
+
+.pealkiri {
+  z-index: 2;
+  top:-19em;
+  left: 4em;
+}
+
+.tekst {
+  margin-top: 1em;
+  text-align: center;
+ font-size: 30px;
+ color: black;
+}
+
+.all {
+margin-top: 4em;
+  text-align: center;
+ font-size: 30px;
+ color: black;
+}
+
+.tekst-2{
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 3em;
+  text-align: center;
+ font-size: 20px;
+ color: black;
+}
+
+.tekst-3 {
+  margin-top: 0em;
+  text-align: center;
+ font-size: 14px;
+ color: black;
+}
+
+.tekst-4 {
+float: left;
+margin-top: 142px;
+margin-left: 2em;
+font-size: 60px;
+color: black;
+}
+
+.erand {
+  margin-top: 130px;
+}
+
+.erand-2 {
+  margin-top: 40px;
+}
+
+.punane {
+
+  color: red;
+}
+
+.sinine {
+
+  color: blue;
+}
+
+.img-responsive {
+  position: absolute;
+}
+
+.foto {
+  top:-17em;
+  z-index: 1;
+  left: 36px;
+}
+
+
+.maja {
+  top: -6em;
+  left: 50%;
+  width: 150px;
+  height: 290px;
+  z-index: 4;
+  background: url(../images/maja.svg) no-repeat;
+}
+
+.maja:hover,
+.maja:focus {
+  background: url(../images/maja_hover.svg) no-repeat;
+}
+
+/*  50px 0px*/
+
+.maja2 {
+  top: -7em;
+  left: 50%;
+  margin-left: -13em;
+  width: 130px;
+  z-index: 3;
+}
+
+.maja3 {
+  top: 0em;
+  height: 160px;
+  left: 50%;
+  margin-left: -32em;
+  z-index: 5;
+}
+
+.maja4 {
+  top: -10em;
+  width: 240px;
+  left: -411.7px;
+  height: 290px;
+  z-index: 4;
+  background: url(../images/maja4.svg) no-repeat;
+}
+
+.maja4:hover,
+.maja4:focus {
+  background: url(../images/maja4_hover.svg) no-repeat;
+}
+
+.maja5 {
+  top: -4em;
+  width: 180px;
+  left: 50%;
+  margin-left: 38em;
+  z-index: 6;
+}
+
+.maja6 {
+  top: 1em;
+  width: 270px;
+  height: 170px;
+  left: 50%;
+  margin-left: 27em;
+  z-index: 5;
+  background: url(../images/maja6.svg) no-repeat;
+}
+
+.maja6:hover,
+.maja6:focus {
+  background: url(../images/maja6_hover.svg) no-repeat;
+}
+
+.maja7 {
+  top: 2em;
+  height: 180px;
+  width: 168px;
+  left: 50%;
+  margin-left: -23em;
+  z-index: 5;
+  background: url(../images/maja7.svg) no-repeat;
+}
+
+.maja7:hover,
+.maja7:focus {
+  background: url(../images/maja7_hover.svg) no-repeat;
+}
+
+.image-box {
+  position: absolute;
+  z-index: 2;
+  top: 20em;
+}
+
+hr { 
+    margin-top: 19em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.tahestik {
+ padding: 8em;
+ padding-top: 17em;
+
+}
+
+.instruction {
+  margin-left: 2em;
+  font-family: "futura", helvetica, sans-serif;
+}
+
+.about {
+  margin-left: -6em;
+}
+
+/*
+.image-link {
+  position: absolute;
+  top: 2em;
+  left: 3em;
+  z-index: 4;
+}
+*/
