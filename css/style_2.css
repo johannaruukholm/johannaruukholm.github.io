@@ -46,7 +46,7 @@ a:visited {
 .sinine-kast {
   border: 10px solid;
   width: 80%;
-  height: 37vh;
+  height: 36vh;
   margin: 3em;
   color: blue;
 }
@@ -152,7 +152,7 @@ color: black;
 .maja2 {
   top: -7em;
   left: 50%;
-  margin-left: -13em;
+  margin-left: -185px;
   width: 130px;
   z-index: 3;
 }
@@ -166,8 +166,8 @@ color: black;
 }
 
 .maja4 {
-  top: -139px;
-  width: 261px;
+  top: -148px;
+  width: 272px;
   left: -411.7px;
   height: 290px;
   z-index: 4;
