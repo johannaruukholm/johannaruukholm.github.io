@@ -25,6 +25,10 @@ a:visited {
   color: blue;
 }
 
+.container-fluid {
+  max-width: 1210px;
+}
+
 .yellow-box {
   border: 10px solid #fcee2b;
   width: 100%;
